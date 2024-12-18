@@ -20,6 +20,7 @@ public class Ejercicio3 {
         Scanner t = new Scanner(System.in);
         Inventario inventarios = new Inventario(100);
         boolean acierto = true;
+        //añadido menu en do while
         do {
             System.out.println("\nMen�:");
             System.out.println("1. Introducir datos nuevo inventario");
@@ -61,7 +62,7 @@ public class Ejercicio3 {
                     break;
 
                 default:
-                    System.out.println("Opci�n no v�lida.");
+                    System.out.println("Opcion no valida.");
             }
         } while (acierto);
     }
